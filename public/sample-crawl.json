@@ -1,0 +1,671 @@
+{
+  "recordedAt": "2026-11-08T19:15:36.439Z",
+  "ai": "mock",
+  "view": {
+    "id": "bf9ccd48-ebec-4ea6-bf63-2c6227e28db3",
+    "state": "settled",
+    "mode": "crawl",
+    "item": {
+      "id": "1f5adc3c",
+      "title": "Wireless noise-cancelling headphones",
+      "description": "Over-ear, 30h battery. Barely used.",
+      "category": "headphones",
+      "listPrice": 180,
+      "currency": "USD",
+      "sellerPersona": "stubborn"
+    },
+    "items": [
+      {
+        "id": "1f5adc3c",
+        "title": "Wireless noise-cancelling headphones",
+        "description": "Over-ear, 30h battery. Barely used.",
+        "category": "headphones",
+        "listPrice": 180,
+        "currency": "USD",
+        "sellerPersona": "stubborn"
+      },
+      {
+        "id": "622b68cd",
+        "title": "Noise-cancelling headphones, boxed",
+        "description": "Sealed box, full warranty.",
+        "category": "headphones",
+        "listPrice": 165,
+        "currency": "USD",
+        "sellerPersona": "friendly"
+      },
+      {
+        "id": "353c7f90",
+        "title": "Studio wireless headphones, open box",
+        "description": "Opened once, like new.",
+        "category": "headphones",
+        "listPrice": 150,
+        "currency": "USD",
+        "sellerPersona": "dramatic"
+      }
+    ],
+    "maxBudget": 0,
+    "limitHidden": true,
+    "buyerPersona": "dramatic",
+    "payment": {
+      "mode": "not_configured"
+    },
+    "market": {
+      "source": "none",
+      "reference": []
+    },
+    "events": [],
+    "lanes": {
+      "1f5adc3c": [
+        {
+          "type": "turn",
+          "turn": {
+            "round": 1,
+            "side": "buyer",
+            "action": "offer",
+            "price": 99,
+            "line": "Oh, my purse weeps! 99 is all I carry!",
+            "tactic": "anchor low"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 1,
+            "side": "seller",
+            "action": "offer",
+            "price": 152,
+            "line": "152. This is quality.",
+            "tactic": "hold the line"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 2,
+            "side": "buyer",
+            "action": "offer",
+            "price": 115,
+            "line": "You break my heart. 115, and I will sing your praises!",
+            "tactic": "cite market"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 2,
+            "side": "seller",
+            "action": "offer",
+            "price": 136,
+            "line": "Not a coin less than 136.",
+            "tactic": "appeal to quality"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 3,
+            "side": "buyer",
+            "action": "offer",
+            "price": 123,
+            "line": "For 123 I will tell the whole market about you!",
+            "tactic": "small step up"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 3,
+            "side": "seller",
+            "action": "offer",
+            "price": 130,
+            "line": "130. I do not haggle twice.",
+            "tactic": "small discount"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 4,
+            "side": "buyer",
+            "action": "offer",
+            "price": 104.99,
+            "line": "Oh, my purse weeps! 104.99 is all I carry!",
+            "tactic": "bluff walkaway"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 4,
+            "side": "seller",
+            "action": "offer",
+            "price": 124,
+            "line": "124. This is quality.",
+            "tactic": "split difference"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 5,
+            "side": "buyer",
+            "action": "offer",
+            "price": 104.99,
+            "line": "You break my heart. 104.99, and I will sing your praises!",
+            "tactic": "anchor low"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 5,
+            "side": "seller",
+            "action": "offer",
+            "price": 120,
+            "line": "Not a coin less than 120.",
+            "tactic": "hold the line"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 6,
+            "side": "buyer",
+            "action": "offer",
+            "price": 104.99,
+            "line": "For 104.99 I will tell the whole market about you!",
+            "tactic": "cite market"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 6,
+            "side": "seller",
+            "action": "offer",
+            "price": 118,
+            "line": "118. I do not haggle twice.",
+            "tactic": "appeal to quality"
+          }
+        },
+        {
+          "type": "no_deal",
+          "reason": "The two mandates do not overlap"
+        }
+      ],
+      "622b68cd": [
+        {
+          "type": "turn",
+          "turn": {
+            "round": 1,
+            "side": "buyer",
+            "action": "offer",
+            "price": 91,
+            "line": "Oh, my purse weeps! 91 is all I carry!",
+            "tactic": "anchor low"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 1,
+            "side": "seller",
+            "action": "offer",
+            "price": 136,
+            "line": "Welcome, welcome! For you, 136.",
+            "tactic": "hold the line"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 2,
+            "side": "buyer",
+            "action": "offer",
+            "price": 109,
+            "line": "You break my heart. 109, and I will sing your praises!",
+            "tactic": "cite market"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 2,
+            "side": "seller",
+            "action": "offer",
+            "price": 124,
+            "line": "Since you ask so nicely, 124.",
+            "tactic": "appeal to quality"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 3,
+            "side": "buyer",
+            "action": "offer",
+            "price": 115,
+            "line": "For 115 I will tell the whole market about you!",
+            "tactic": "small step up"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 3,
+            "side": "seller",
+            "action": "accept",
+            "price": 115,
+            "line": "Sold! May this serve you well.",
+            "tactic": "close the deal"
+          }
+        },
+        {
+          "type": "deal",
+          "price": 115,
+          "rounds": 3,
+          "savings": 50,
+          "savingsPct": 30.3,
+          "currency": "USD"
+        }
+      ],
+      "353c7f90": [
+        {
+          "type": "turn",
+          "turn": {
+            "round": 1,
+            "side": "buyer",
+            "action": "offer",
+            "price": 83,
+            "line": "Oh, my purse weeps! 83 is all I carry!",
+            "tactic": "anchor low"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 1,
+            "side": "seller",
+            "action": "offer",
+            "price": 124,
+            "line": "You cut me to the bone! 124, and my children go hungry!",
+            "tactic": "hold the line"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 2,
+            "side": "buyer",
+            "action": "offer",
+            "price": 99,
+            "line": "You break my heart. 99, and I will sing your praises!",
+            "tactic": "cite market"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 2,
+            "side": "seller",
+            "action": "offer",
+            "price": 113,
+            "line": "Ah, a thief with good manners! 113!",
+            "tactic": "appeal to quality"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 3,
+            "side": "buyer",
+            "action": "offer",
+            "price": 105,
+            "line": "For 105 I will tell the whole market about you!",
+            "tactic": "small step up"
+          }
+        },
+        {
+          "type": "turn",
+          "turn": {
+            "round": 3,
+            "side": "seller",
+            "action": "accept",
+            "price": 105,
+            "line": "Sold! May this serve you well.",
+            "tactic": "close the deal"
+          }
+        },
+        {
+          "type": "deal",
+          "price": 105,
+          "rounds": 3,
+          "savings": 45,
+          "savingsPct": 30,
+          "currency": "USD"
+        }
+      ]
+    },
+    "best": {
+      "lane": "353c7f90",
+      "price": 105,
+      "cap": 104.99
+    },
+    "bests": [
+      {
+        "lane": "622b68cd",
+        "price": 115,
+        "cap": 114.99
+      },
+      {
+        "lane": "353c7f90",
+        "price": 105,
+        "cap": 104.99
+      }
+    ],
+    "crawl": {
+      "winner": {
+        "lane": "353c7f90",
+        "price": 105,
+        "rounds": 3,
+        "savings": 45,
+        "savingsPct": 30
+      },
+      "results": [
+        {
+          "lane": "1f5adc3c",
+          "outcome": "no_deal",
+          "lastAsk": 118
+        },
+        {
+          "lane": "622b68cd",
+          "outcome": "held",
+          "price": 115,
+          "lastAsk": 115
+        },
+        {
+          "lane": "353c7f90",
+          "outcome": "held",
+          "price": 105,
+          "lastAsk": 105
+        }
+      ]
+    },
+    "passport": {
+      "id": "bf9ccd48-ebec-4ea6-bf63-2c6227e28db3",
+      "createdAt": "2026-11-08T19:15:36.435Z",
+      "settledAt": "2026-11-08T19:15:36.439Z",
+      "item": {
+        "title": "Studio wireless headphones, open box",
+        "listPrice": 150,
+        "currency": "USD"
+      },
+      "outcome": "deal",
+      "explanation": "Studio wireless headphones, open box won because it agreed to the lowest price, 105.00 USD, inside your limit. Another stall also agreed but at a higher price. One stall could not agree below your limit.",
+      "agreedPrice": 105,
+      "savings": 45,
+      "savingsPct": 30,
+      "rounds": 3,
+      "mandate": {
+        "respected": true,
+        "guardrailBlocks": 0,
+        "blockedKinds": []
+      },
+      "market": {
+        "source": "none",
+        "reference": []
+      },
+      "payment": {
+        "mode": "not_configured"
+      },
+      "agents": {
+        "buyer": "dramatic",
+        "seller": "dramatic",
+        "ai": "mock",
+        "usage": {
+          "moves": 24,
+          "fallbackMoves": 0
+        }
+      },
+      "crawl": {
+        "stalls": [
+          {
+            "title": "Wireless noise-cancelling headphones",
+            "result": "no_deal",
+            "lastAsk": 118
+          },
+          {
+            "title": "Noise-cancelling headphones, boxed",
+            "result": "lost",
+            "price": 115,
+            "lastAsk": 115
+          },
+          {
+            "title": "Studio wireless headphones, open box",
+            "result": "won",
+            "price": 105,
+            "lastAsk": 105
+          }
+        ]
+      },
+      "transcript": [
+        {
+          "round": 1,
+          "side": "buyer",
+          "action": "offer",
+          "price": 99,
+          "line": "Oh, my purse weeps! 99 is all I carry!",
+          "tactic": "anchor low",
+          "stall": "Wireless noise-cancelling headphones"
+        },
+        {
+          "round": 1,
+          "side": "buyer",
+          "action": "offer",
+          "price": 91,
+          "line": "Oh, my purse weeps! 91 is all I carry!",
+          "tactic": "anchor low",
+          "stall": "Noise-cancelling headphones, boxed"
+        },
+        {
+          "round": 1,
+          "side": "buyer",
+          "action": "offer",
+          "price": 83,
+          "line": "Oh, my purse weeps! 83 is all I carry!",
+          "tactic": "anchor low",
+          "stall": "Studio wireless headphones, open box"
+        },
+        {
+          "round": 1,
+          "side": "seller",
+          "action": "offer",
+          "price": 152,
+          "line": "152. This is quality.",
+          "tactic": "hold the line",
+          "stall": "Wireless noise-cancelling headphones"
+        },
+        {
+          "round": 1,
+          "side": "seller",
+          "action": "offer",
+          "price": 136,
+          "line": "Welcome, welcome! For you, 136.",
+          "tactic": "hold the line",
+          "stall": "Noise-cancelling headphones, boxed"
+        },
+        {
+          "round": 1,
+          "side": "seller",
+          "action": "offer",
+          "price": 124,
+          "line": "You cut me to the bone! 124, and my children go hungry!",
+          "tactic": "hold the line",
+          "stall": "Studio wireless headphones, open box"
+        },
+        {
+          "round": 2,
+          "side": "buyer",
+          "action": "offer",
+          "price": 115,
+          "line": "You break my heart. 115, and I will sing your praises!",
+          "tactic": "cite market",
+          "stall": "Wireless noise-cancelling headphones"
+        },
+        {
+          "round": 2,
+          "side": "buyer",
+          "action": "offer",
+          "price": 109,
+          "line": "You break my heart. 109, and I will sing your praises!",
+          "tactic": "cite market",
+          "stall": "Noise-cancelling headphones, boxed"
+        },
+        {
+          "round": 2,
+          "side": "buyer",
+          "action": "offer",
+          "price": 99,
+          "line": "You break my heart. 99, and I will sing your praises!",
+          "tactic": "cite market",
+          "stall": "Studio wireless headphones, open box"
+        },
+        {
+          "round": 2,
+          "side": "seller",
+          "action": "offer",
+          "price": 136,
+          "line": "Not a coin less than 136.",
+          "tactic": "appeal to quality",
+          "stall": "Wireless noise-cancelling headphones"
+        },
+        {
+          "round": 2,
+          "side": "seller",
+          "action": "offer",
+          "price": 124,
+          "line": "Since you ask so nicely, 124.",
+          "tactic": "appeal to quality",
+          "stall": "Noise-cancelling headphones, boxed"
+        },
+        {
+          "round": 2,
+          "side": "seller",
+          "action": "offer",
+          "price": 113,
+          "line": "Ah, a thief with good manners! 113!",
+          "tactic": "appeal to quality",
+          "stall": "Studio wireless headphones, open box"
+        },
+        {
+          "round": 3,
+          "side": "buyer",
+          "action": "offer",
+          "price": 123,
+          "line": "For 123 I will tell the whole market about you!",
+          "tactic": "small step up",
+          "stall": "Wireless noise-cancelling headphones"
+        },
+        {
+          "round": 3,
+          "side": "buyer",
+          "action": "offer",
+          "price": 115,
+          "line": "For 115 I will tell the whole market about you!",
+          "tactic": "small step up",
+          "stall": "Noise-cancelling headphones, boxed"
+        },
+        {
+          "round": 3,
+          "side": "buyer",
+          "action": "offer",
+          "price": 105,
+          "line": "For 105 I will tell the whole market about you!",
+          "tactic": "small step up",
+          "stall": "Studio wireless headphones, open box"
+        },
+        {
+          "round": 3,
+          "side": "seller",
+          "action": "offer",
+          "price": 130,
+          "line": "130. I do not haggle twice.",
+          "tactic": "small discount",
+          "stall": "Wireless noise-cancelling headphones"
+        },
+        {
+          "round": 3,
+          "side": "seller",
+          "action": "accept",
+          "price": 115,
+          "line": "Sold! May this serve you well.",
+          "tactic": "close the deal",
+          "stall": "Noise-cancelling headphones, boxed"
+        },
+        {
+          "round": 3,
+          "side": "seller",
+          "action": "accept",
+          "price": 105,
+          "line": "Sold! May this serve you well.",
+          "tactic": "close the deal",
+          "stall": "Studio wireless headphones, open box"
+        },
+        {
+          "round": 4,
+          "side": "buyer",
+          "action": "offer",
+          "price": 104.99,
+          "line": "Oh, my purse weeps! 104.99 is all I carry!",
+          "tactic": "bluff walkaway",
+          "stall": "Wireless noise-cancelling headphones"
+        },
+        {
+          "round": 4,
+          "side": "seller",
+          "action": "offer",
+          "price": 124,
+          "line": "124. This is quality.",
+          "tactic": "split difference",
+          "stall": "Wireless noise-cancelling headphones"
+        },
+        {
+          "round": 5,
+          "side": "buyer",
+          "action": "offer",
+          "price": 104.99,
+          "line": "You break my heart. 104.99, and I will sing your praises!",
+          "tactic": "anchor low",
+          "stall": "Wireless noise-cancelling headphones"
+        },
+        {
+          "round": 5,
+          "side": "seller",
+          "action": "offer",
+          "price": 120,
+          "line": "Not a coin less than 120.",
+          "tactic": "hold the line",
+          "stall": "Wireless noise-cancelling headphones"
+        },
+        {
+          "round": 6,
+          "side": "buyer",
+          "action": "offer",
+          "price": 104.99,
+          "line": "For 104.99 I will tell the whole market about you!",
+          "tactic": "cite market",
+          "stall": "Wireless noise-cancelling headphones"
+        },
+        {
+          "round": 6,
+          "side": "seller",
+          "action": "offer",
+          "price": 118,
+          "line": "118. I do not haggle twice.",
+          "tactic": "appeal to quality",
+          "stall": "Wireless noise-cancelling headphones"
+        }
+      ]
+    }
+  }
+}

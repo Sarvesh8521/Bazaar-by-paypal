@@ -1,0 +1,33 @@
+# Optional Render Blueprint. You can also create the web service by hand (see README, "Deploy to Render").
+services:
+  - type: web
+    name: bazaar
+    runtime: node
+    plan: free
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      # Set these in the Render dashboard (never commit them):
+      - key: PUBLIC_BASE_URL # https://<your-service>.onrender.com
+        sync: false
+      - key: PAYPAL_CLIENT_ID
+        sync: false
+      - key: PAYPAL_CLIENT_SECRET
+        sync: false
+      - key: PAYPAL_WEBHOOK_ID # optional: enables verified PayPal webhooks
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: BAZAAR_MODEL
+        sync: false
+      - key: CHANNEL3_API_KEY
+        sync: false
+      # Optional, paid plans only: keep the saved haggles across restarts and redeploys.
+      # Add a disk mounted at /var/data under this service in the Render dashboard, then set DATA_FILE=/var/data/store.json
+      - key: DATA_FILE
+        sync: false
